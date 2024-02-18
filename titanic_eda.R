@@ -24,3 +24,10 @@ ggplot(df, aes(x = Pclass, fill = factor(Survived))) +
        y = "Count",
        fill = "Survived") +
   theme_minimal()
+
+
+Description for first histogram chart
+1. We Analyzed Data of Survival count on titanic_train dataset based on sex.
+2. The graph is divided between male and female with survived and not survived data. 
+3. Some interesting insights were
+  a. Women in 1st class have the highest survival rate followed by 2nd class females as compared to males, but the women passengers in 3rd class shown 50% survival only. The data clearly descibes of being a women  
