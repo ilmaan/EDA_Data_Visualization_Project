@@ -1,6 +1,6 @@
 # Upload Titanic dataset CSV file
-data <- read.csv("titanic.csv")
-
+data <- read.csv("ObesityDataSet_raw_and_data_sinthetic.csv")
+View(data)
 # Load the ggplot2 library
 library(ggplot2)
 
